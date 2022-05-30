@@ -1,0 +1,90 @@
+/* Global rules */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* -- Header -- */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 250%;
+    padding: 2%;
+}
+
+/* -- Navigation bar -- */
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 125%;
+    text-align: end;
+    margin-bottom: 5%;
+    padding-right: 2%;
+}
+
+body {
+    background-color: #b2acacf6;
+    color: #000000;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+h2 {
+    font-size: 150%;
+    margin-left: 2%;
+}
+
+h3 {
+    font-size: 100%;
+    margin-left: 2%;
+}
+
+h4 {
+    font-size: 60%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+p {
+    margin: 2%;
+}
+
+.about-me-photo img {
+    width: 60%;
+    height: auto;
+    align: center
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Project1-photo img {
+    width: 100%;
+    height: auto;
+    align: center
+    margin-left: 2%; 
+    margin-right: 2%;
+}
+
+/* Small projects split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .container-small-projects {
+      width: 45%;
+    }
+  }
+  
+/* Small projects are stacked on top of each other at 500px or smaller */
+  @media screen and (max-width: 500px) {
+    .container-small-projects {
+      width: 90%;
+    }
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: 80%;
+}

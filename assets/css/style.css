@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* Added universal colour and font-family */
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* HEADER AND NAV STYLING */
+
+.header {
+        padding: 20px;
+        background-color: #2a607c;
+}
+
+.header h1 {
+        display: inline-block;
+        font-size: 48px;
+}
+
+.seoText {
+        color=#d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right:20px;
+    float: right;
+    font-size: 20px
+}
+
+header nav ul {
+list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.main-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-propositions  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+main-propositions img {
+    max-height: 200px;
+}
+    
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+side {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /* Aside element added to reflect html semantic layout change */
+}
+
+.benefits-list {
+    margin-bottom: 32px;
+}
+
+.benefits-list h3 {
+    text-align: center;
+}
+
+.benefits-list img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer > * {
+    color: black;
+}
